@@ -1,0 +1,492 @@
+html {
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  /* CSS RESET */
+  /*
+      1. Use a more-intuitive box-sizing model.
+    */
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  
+  /*
+      2. Remove default margin
+    */
+  * {
+    margin: 0;
+  }
+  
+  /*
+        3. Allow percentage-based heights in the application
+      */
+  html {
+    height: auto;
+  }
+
+  .header{
+    background-color:rgb(54, 9, 218);
+    padding-left: 30%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+   color: white;
+  }
+  .ct{
+    padding-top: 13px;
+    font-size: small;
+  }
+
+  .header a{
+    color: white;
+    text-decoration:underline;
+  }
+  .header img{
+    position: absolute;
+    top: 30px;
+    right: 50px;
+  }
+  
+
+  .sec1{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+ 
+  
+  .searchbar input{
+    width: 500px;
+    height: 50px;
+    border-radius: 30px;
+    border: 1px solid rgb(77, 70, 70);
+    background-color: rgb(238, 238, 247);
+    padding-left: 50px;
+    background-image: url('./images/sec2/search.svg');
+    background-repeat: no-repeat;
+    background-position:10px 10px;
+  }
+
+  .searchbar img{
+    padding-top: 12px;
+    
+  }
+
+
+  div .white{
+    background-color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    margin-right: 5px;
+  }
+
+  div .black{
+    background-color:black;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    color: white;
+  }
+
+  .world{
+    border:1px solid rgb(109, 106, 106);
+    padding: 10px;
+
+  }
+
+  .sales{
+    border: 1px solid rgb(48, 48, 48);
+    width: 450px;
+    position: absolute;
+    top: 300px;
+    left: 100px;
+    background-color: white;
+    padding: 20px;
+  }
+  .courses{
+    padding-left: 30px;
+    padding-top: 30px;
+    line-height: 35px;
+    word-spacing: 5px;
+    padding-bottom: 10px;
+    
+  }
+
+  .courses p{
+    font-size: large;
+  }
+
+  .course1{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 60%;
+    padding-left: 3px;
+    gap: 20px;
+  }
+
+  .course1 a{
+    text-decoration: none;
+    color: rgb(50, 51, 51);
+  }
+
+  .expansion{
+    border: 1px solid rgb(148, 146, 146);
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-top: 30px;
+    padding-left: 30px;
+  }
+
+  .career h3{
+    font-size: 25px;
+    line-height: 50px;
+   
+  }
+
+  .career{
+    line-height: 25px;
+  }
+
+  .expansion button{
+    margin-top: 30px;
+    padding: 10px;
+    background-color: white;
+  }
+
+  .expansion button a{
+    text-decoration: none;
+    color: black;
+  }
+  .opportunity{
+    display: flex;
+    gap: 5px;
+    left: 5px;
+    padding-bottom: 50px;
+    line-height: 20px;
+    
+    
+  }
+  
+  
+
+  .opportunity button{
+    background-color: rgb(241, 241, 125);
+    border: none;
+    outline: none;
+    margin-top: 10px;
+  }
+
+  .addition{
+    font-size: smaller;
+    color: rgb(88, 88, 88);
+    line-height: 20px;
+   
+  }
+  .icon{
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+    border: 1px solid rgb(88, 86, 86);
+    background-color: rgb(250, 242, 242);
+    border: none;
+    outline: none;
+    padding: 20px;
+    justify-content: space-between;
+    gap: 40px;
+    
+  }
+  .icon img{
+    border: 1px solid grey;
+    border-radius: 60px;
+    background-color: rgb(185, 181, 181);
+    border: none;
+    outline: none;
+    padding: 10px;
+  }
+
+  .students1{
+    display: flex;
+    scroll-behavior: smooth;
+    overflow:hidden;
+    gap: 14px;
+    align-items: center;
+       
+  }
+
+  .students{
+    padding-top: 80px;
+    padding-left: 20px;
+  }
+
+  .students h4{
+    font-size: 25px;
+  }
+
+  .students1 button{
+    background-color: rgb(241, 241, 125);
+    border: none;
+    outline: none;
+    margin-top: 10px;
+  }
+
+   .cate{
+    padding-left: 30px;
+    padding-right: 20px;
+    
+   }
+
+  .cate1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  .cate1 img{
+    border: 1px solid grey;
+    border: none;
+    outline: none;
+  }
+
+  .cate1 p a{
+    text-decoration: none;
+    color: black;
+   font-weight: bold;
+
+  }
+
+  .cate2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+    margin-bottom: 70px;
+  }
+
+  .cate2 img{
+    border: 1px solid grey;
+    border: none;
+    outline: none;
+  }
+
+  .cate2 p a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+   
+  }
+
+  .topics1{
+    display: flex;
+    padding-right: 10px;
+    justify-content: space-between;
+    line-height: 50px; 
+   
+    
+  }
+
+  .topics{
+    border: 1px solid grey;
+    background-color: rgb(241, 237, 237);
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 100px;
+    border: none;
+    outline: none;
+    padding-bottom: 60px;
+    margin-bottom: 100px;
+
+
+  }
+
+  .topics1 ul li a{
+    font-weight: bold;
+    color: purple;
+   
+  }
+  .topics1 ul li {
+  list-style-type: none;
+  font-weight: bold;
+  
+}
+
+.topics button{
+  padding: 10px;
+  background-color: white;
+  border: 1px solid black;
+ 
+ 
+ 
+}
+.topics button a{
+ color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+.trust{
+  text-align: center;
+  line-height: 30px;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.pix img{
+  margin: 60px;
+
+}
+
+.udemybiz{
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+ padding-left: 20%;
+ line-height: 30px;
+ font-size: large;
+
+}
+
+.udemybiz h2{
+  padding-top: 10px;
+  padding-bottom: 20px;
+  
+}
+
+.udemybiz ul{
+  padding-bottom: 20px;
+}
+.udemy1{
+  background-color: black;
+  padding: 10px;
+  border: none;
+  outline: none;
+  font-size: large;
+  
+}
+
+.udemy1 a{
+  color: white;
+  text-decoration: none;
+}
+
+.udemy2{
+  background-color: white;
+  padding: 10px;
+  border: 1px solid black;
+  font-size: large;
+  
+}
+
+.udemy2 a{
+  color: black;
+  text-decoration: none;
+
+}
+
+.instructor{
+   display: flex;
+   padding-left: 200px;
+   padding-top: 50px;
+    gap: 100px;
+    padding-bottom: 70px;
+  
+  }
+
+  .instructor div h2{
+    padding-top: 90px;
+    padding-bottom: 20px;
+    font-size: 200%;
+  }
+
+  .instructor div p{
+    line-height: 30px;
+    font-size: large;
+    padding-bottom: 20px;
+  }
+
+  footer{
+    background-color: rgb(39, 38, 38);
+    padding-left: 30px;
+   
+  }
+  .futa{
+    display: flex;
+    gap: 100px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    line-height: 30px;
+  }
+  .futa a{
+    text-decoration: none;
+    color: white;
+    list-style-type: none;
+    font-size: small;
+  }
+  .futa li{
+    list-style-type: none;
+  }
+ 
+ .wb{
+  background-color: rgb(39, 38, 38);
+  width:10%;
+  border: 1px solid white;
+  height: 50px;
+  
+
+  
+  
+ }
+
+ .wb{
+  margin-right: 40px;
+  margin-top: 30px;
+ }
+
+ .wb a{
+  color: white;
+  text-decoration: none;
+ }
+ .wb button{
+  background-color: rgb(39, 38, 38);
+  border: none;
+  outline: none;
+  padding-bottom: 15px;
+ }
+ .wb img{
+  filter:brightness(1000%) ;
+  padding-left: 15px;
+  padding-top: 5px;
+ 
+ }
+ .futa2{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+ }
+
+ .futa2 img{
+  filter:brightness(100%) ;
+ }
+
+
+ .futa3{
+  color: white;
+  font-size: 12px;
+ }
+
+ .final{
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+ }
